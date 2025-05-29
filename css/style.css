@@ -177,7 +177,7 @@ img {
   }
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   #hero {
     background: linear-gradient(
       var(--c-brand),
@@ -199,8 +199,6 @@ img {
     text-align: center;
   }
   #hero h5 {
-    justify-content: center;
-    text-align: center;
     font-size: 16px;
     left: 5px;
     color: #333;
@@ -215,14 +213,14 @@ img {
     opacity: 0.7;
   }
 
-  /* #hero a {
+  #hero a {
     position: relative;
     bottom: -200px;
     left: -10px;
-  } */
+  }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   #hero h1 {
     display: flex;
     flex-direction: column;
@@ -242,7 +240,7 @@ img {
   #hero a {
     position: relative;
     bottom: -190px;
-    left: 90px;
+    left: -90px;
   }
 }
 

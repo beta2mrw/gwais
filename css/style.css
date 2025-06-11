@@ -56,6 +56,11 @@ img {
   height: auto;
 }
 
+.text-brand {
+  color: var(--c-brand);
+  font-weight: bold;
+}
+
 .section-padding {
   padding-top: 30px;
   padding-bottom: 30px;

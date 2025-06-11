@@ -265,10 +265,11 @@ img {
 
 @media (width <= 480px) {
   #hero h1 {
-    font-size: 30px;
+    position: relative;
+    font-size: 60px;
     text-align: center;
     left: -3px;
-    bottom: -200px;
+    bottom: -140px;
     color: var(--c-dark);
   }
 
@@ -278,18 +279,19 @@ img {
   }
 
   #hero h5 {
+    position: relative;
     text-align: center;
     font-size: 12px;
     left: 5px;
     color: #333;
-    bottom: -200px;
+    bottom: -150px;
   }
 
   #hero img {
     position: relative;
     width: 50%;
     height: 70%;
-    bottom: 200px;
+    bottom: 100px;
     opacity: 0.9;
   }
 
@@ -297,11 +299,10 @@ img {
     position: relative;
     justify-content: center;
     align-items: center;
-    bottom: -200px;
     width: 40%;
     padding: 10px 0;
     font-size: 14px;
-    bottom: -190px;
+    bottom: -130px;
     left: 30px;
   }
 }
@@ -341,7 +342,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    bottom: -200px;
+    /* bottom: -200px; */
     width: 40%;
     padding: 10px 0;
     /* margin: 10px auto; */

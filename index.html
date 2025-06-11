@@ -11,6 +11,10 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"/>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://api.fontshare.com/v2/css?f[]=panchang@400,500,600,700,800&display=swap" rel="stylesheet">
+
+     <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Gaurangi Web & IT!</title>
@@ -45,10 +49,32 @@
             </li>
            
           </ul>
-            <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#contact" >Contact</a>
+            <!-- <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#contact" >Contact</a> -->
+
+            <div id="button-container">
+              <!-- Google Calendar Appointment Scheduling begin -->
+
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+              <script>
+              (function() {
+              var target = document.currentScript;
+              window.addEventListener('load', function() {
+              calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1vnnz8Z93hfJA5xeu-hz4Wfa1ZD6j2G8H9wDPo4js2uY3XIgMslh-weq2PexpxqAWu2yh4B_pF?gv=true',
+              color: '#4e57d4',
+              label: 'Book an appointment',
+              target,
+                });
+              });
+            })();
+        </script>
+<!-- end Google Calendar Appointment Scheduling -->
+            </div>   
         </div>
       </div>
     </nav>
+
+    
 
     
 
@@ -67,8 +93,8 @@
             <div class="row">
               <div class="col-12">
                 <h1 class="text-uppercase text-white fw-semibold display-4 text-area">Innovate</h1>
-                <h1 class="text-uppercase text-dark fw-semibold display-4 text-area">Scale</h1>
-                <h1 class="text-uppercase fw-semibold display-4 text-area">Secure</h1>
+                <h1 class="text-uppercase fw-semibold display-4 text-area">Scale</h1>
+                <h1 class="text-uppercase text-secure display-4 text-area">Secure</h1>
                  <h5 class="text-black text-uppercase mt-5 mb-5">Secure <span 
                     class="txt-type" 
                     data-wait="3000" 

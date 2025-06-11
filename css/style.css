@@ -10,6 +10,7 @@
 :root {
   --c-dark: #16191b;
   --c-brand: #4e57d4;
+  --c-brand-gold: rgb(254, 202, 30);
   --c-brand-light: #6970dd;
   --c-brand-dark: #444;
   --c-brand-rgb: rgba(78, 87, 212, 0.272);
@@ -164,8 +165,10 @@ img {
   }
 
   h1:nth-child(2) {
-    font-size: 110px;
-    font-style: stretch;
+    font-family: 'Panchang', sans-serif;
+    font-size: 100px;
+    color: var(--c-brand);
+    /* font-style: italic; */
   }
 
   h5 {
@@ -182,6 +185,14 @@ img {
     /* bottom: -100px; */
     left: 70px;
     z-index: 1;
+  }
+
+  .text-secure {
+    color: linear-gradient(
+      var(--c-brand-gold),
+      rgb(188, 130, 54),
+      rgb(223, 157, 25)
+    );
   }
 }
 
@@ -262,7 +273,7 @@ img {
   }
 
   #hero h1:nth-child(2) {
-    font-size: 90px;
+    font-size: 60px;
     font-style: stretch;
   }
 
@@ -272,6 +283,14 @@ img {
     left: 5px;
     color: #333;
     bottom: -200px;
+  }
+
+  #hero img {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    bottom: 200px;
+    opacity: 0.9;
   }
 
   #hero .btn {
@@ -297,7 +316,7 @@ img {
   }
 
   #hero h1:nth-child(2) {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   #hero h5 {
@@ -306,6 +325,14 @@ img {
     left: 5px;
     color: #333;
     bottom: -200px;
+  }
+
+  #hero img {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    bottom: 120px;
+    opacity: 0.5;
   }
 
   #hero .btn {

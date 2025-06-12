@@ -586,14 +586,23 @@ img {
   border-right: 0.1rem solid #4e57d4;
 }
 
+.accordion-item {
+  box-shadow: var(--box-shadow);
+}
+
+.accordion-item h5 {
+  font-size: 16px;
+  color: var(--c-brand-light);
+}
+
 @media (max-width: 767px) {
   #faq {
     margin-top: 50px;
-    background: var(--c-brand-light);
+    /* background: var(--c-brand-light); */
   }
 
-  #faq p {
-    color: #fff;
+  #faq h6 {
+    color: #000;
   }
 }
 
@@ -609,6 +618,7 @@ img {
 }
 .section-header h2 {
   font-weight: 700;
+  color: #fff;
 }
 .section-header p {
   color: #6f6b80;
@@ -629,27 +639,39 @@ img {
   margin: auto;
 }
 .person {
+  position: relative;
   width: 100px;
   height: 100px;
   display: block;
   margin: auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid #6970dd;
+  border: 5px solid #fff;
   margin-top: 50px;
+  top: -50px;
 }
 .person img {
   width: 100%;
+  height: 100%;
 }
 .content h5 {
+  position: relative;
+  top: -40px;
   font-weight: 900;
   margin-top: 15px;
+  color: #fff;
 }
+
+.content h6 {
+  position: relative;
+  top: -40px;
+}
+
 .testimonial-area {
   background: url('../assets/images/3805.jpg') no-repeat center center/cover;
 }
 .carousel-indicators {
-  bottom: -80px;
+  bottom: -20px;
 }
 .carousel-indicators [data-bs-target] {
   width: 60px;

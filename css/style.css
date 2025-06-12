@@ -196,6 +196,7 @@ img {
 
   h1 {
     position: relative;
+    font-family: 'Panchang', sans-serif;
     font-size: 80px;
     font-weight: 600;
     color: var(--c-brand-light);
@@ -206,6 +207,12 @@ img {
     font-family: 'Panchang', sans-serif;
     font-size: 100px;
     color: var(--c-brand);
+    /* font-style: italic; */
+  }
+  h1:nth-child(3) {
+    font-family: 'Panchang', sans-serif;
+    font-size: 100px;
+    color: #67ef6e;
     /* font-style: italic; */
   }
 

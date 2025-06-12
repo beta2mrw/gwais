@@ -41,3 +41,12 @@ form.addEventListener('submit', (e) => {
     email_error.style.display = 'block';
   }
 });
+const bookMeeting = document.getElementById('button-container');
+
+bookMeeting.addEventListener('click', (e) => {
+  // Open the Google Calendar appointment scheduling page in a new tab
+  window.open(
+    'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1vnnz8Z93hfJA5xeu-hz4Wfa1ZD6j2G8H9wDPo4js2uY3XIgMslh-weq2PexpxqAWu2yh4B_pF?gv=true',
+    '_blank'
+  );
+});

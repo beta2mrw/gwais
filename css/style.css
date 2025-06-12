@@ -76,10 +76,6 @@ img {
 }
 
 /* Navbar */
-
-/* .navbar {
-  box-shadow: var(--box-shadow);
-} */
 .navbar-nav .nav-link {
   font-weight: 500;
   color: var(--c-dark);
@@ -178,21 +174,7 @@ img {
 #hero {
   background: url('../assets/images/chooks.jpg') no-repeat center center/cover;
   height: 80vh;
-  /* background-position: center;
-  background-size: cover; */
   overflow: hidden;
-
-  /* img {
-    position: relative;
-    top: 10%;
-    padding-bottom: 50px;
-    left: 0%;
-    padding-right: 50px;
-    max-width: 100%;
-    height: 90%;
-    object-fit: cover;
-    z-index: -1;
-  } */
 
   h1 {
     position: relative;
@@ -231,23 +213,10 @@ img {
     left: 70px;
     z-index: 1;
   }
-
-  /* .text-secure {
-    color: linear-gradient(
-      var(--c-brand-gold),
-      rgb(188, 130, 54),
-      rgb(223, 157, 25)
-    );
-  } */
 }
 
 @media (max-width: 767px) {
   #hero {
-    /* background: linear-gradient(
-      var(--c-brand),
-      rgba(0, 0, 0, 0.01),
-      rgba(0, 0, 0, 0.02)
-    ); */
     background-position: center;
     background-size: cover;
     height: 60vh;
@@ -475,11 +444,6 @@ img {
   margin-right: auto;
 }
 
-/* #about {
-  background-position: center;
-  background-size: cover;
-} */
-
 .iconbox {
   width: 60px;
   height: 60px;
@@ -570,36 +534,6 @@ img {
 }
 
 /* Review */
-
-#reviews {
-  /* background: linear-gradient(var(--c-brand), #4e57d4, rgba(0, 0, 0, 0.31)); */
-  /* background-color: var(--c-brand); */
-  background-size: cover;
-
-  h5 {
-    color: #fff;
-  }
-}
-
-.review small {
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--c-brand);
-}
-
-.review-head {
-  position: relative;
-}
-
-.review-head::after {
-  content: '';
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  bottom: -14px;
-  background-color: white;
-  transform: rotate(45deg);
-}
 
 .input-group {
   position: relative;

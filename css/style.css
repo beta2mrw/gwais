@@ -76,6 +76,10 @@ img {
 }
 
 /* Navbar */
+.navbar {
+  opacity: 0.9;
+}
+
 .navbar-nav .nav-link {
   font-weight: 500;
   color: var(--c-dark);

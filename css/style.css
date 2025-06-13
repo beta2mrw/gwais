@@ -31,7 +31,7 @@
 }
 
 .linear {
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right,
     #0043ec,
     #67ef6e
@@ -464,7 +464,7 @@ footer h2 {
 .section-title .line {
   width: 60px;
   height: 4px;
-  background-color: var(--c-brand);
+  background: linear-gradient(to right, #0043ec, #67ef6e);
   margin: 16px auto 24px auto;
 }
 

@@ -27,7 +27,20 @@
 .visible {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 2s ease, transform 2s ease;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.linear {
+  background-image: linear-gradient(
+    to right,
+    #0043ec,
+    #67ef6e
+  ); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent; /* For non-webkit browsers */
+  font-weight: bold; /* Optional */
 }
 
 body {

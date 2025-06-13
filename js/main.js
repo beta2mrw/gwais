@@ -51,15 +51,27 @@ bookMeeting.addEventListener('click', (e) => {
   );
 });
 
+// const sections = document.querySelectorAll('.section');
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('visible');
+//     }
+//   });
+// });
+
+// sections.forEach((section) => {
+//   observer.observe(section);
+// });
+
 const sections = document.querySelectorAll('.section');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
+
+window.addEventListener('scroll', () => {
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.9) {
+      // Adjust 0.8 for sensitivity
+      section.classList.add('visible');
     }
   });
-});
-
-sections.forEach((section) => {
-  observer.observe(section);
 });

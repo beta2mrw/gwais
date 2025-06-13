@@ -46,7 +46,7 @@ const bookMeeting = document.getElementById('button-container');
 bookMeeting.addEventListener('click', (e) => {
   // Open the Google Calendar appointment scheduling page in a new tab
   window.open(
-    'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1vnnz8Z93hfJA5xeu-hz4Wfa1ZD6j2G8H9wDPo4js2uY3XIgMslh-weq2PexpxqAWu2yh4B_pF?gv=true',
+    'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3oCA2OUPshRsSuaE05H2kxfqP0TN58bGO_EC1L_BCrKuVxXjt_r_sMOhhnKRcSC_JpS6k7Dzc6?gv=true',
     '_blank'
   );
 });
